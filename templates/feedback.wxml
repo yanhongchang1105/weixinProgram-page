@@ -1,0 +1,9 @@
+<template name="feedback">
+<view class="icon">
+  <icon type="{{isSucc ? 'success' : 'cancel'}}" size="40"/> 数据提交{{isSucc ? '成功' : '失败'}}
+</view>
+
+<view>
+  <button class="btn {{isSucc ? 'btn-succ' : 'btn-fail'}}" bindtap="handleBack">返回</button>
+</view>
+</template>

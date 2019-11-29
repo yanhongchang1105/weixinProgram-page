@@ -1,0 +1,52 @@
+
+.item {
+  display: flex;
+  height: 100rpx;
+  border-bottom: solid 1rpx #eee;
+}
+
+.label {
+  width: 180rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+}
+
+.content {
+  flex: 1;
+  line-height: 100rpx;
+  font-weight: 300;
+}
+
+.content input {
+  height: 100%;
+}
+
+.btn {
+  margin: 20rpx;
+}
+
+button[type=default] {
+  background: #f29a38;
+  color: #fff;
+}
+
+.feedback .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx;
+}
+
+.feedback .icon icon {
+  margin-right: 30rpx;
+}
+
+.feedback .btn-succ {
+  background: #55b637;
+  color: #fff;
+}
+
+.feedback .btn-fail {
+  background: #f00;
+  color: #fff;
+}
